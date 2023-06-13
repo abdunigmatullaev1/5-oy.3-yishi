@@ -1,0 +1,93 @@
+.comand{
+
+    padding: 40px;
+
+    &__con{
+        text-align: center;
+
+        h1{
+            margin-bottom: 16px;
+            text-align: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            color: #2C2D2E;
+            
+            span{
+                color: #EF7C00;
+            }
+        }
+
+        ul{
+            justify-content: space-between;
+            margin-bottom: 42px;
+            text-align: center;
+            display: flex;
+            li{
+                width: 203px;
+                img{
+                    margin-bottom: 12px;
+                }
+                h4{
+                    margin-bottom: 4px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 20px;                  
+                    color: #2C2D2E;
+                }
+                p{
+                    margin-bottom: 16px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 13px;                   
+                    text-align: center;      
+                    color: #919399;                    
+                }
+                a{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 13px;
+                    width: 202px;                     
+                    color: #2C2D2E;
+                }
+                h5{
+                    margin-top: 8px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 13px;                   
+                    text-align: center;
+                    color: #2C2D2E;
+                }
+            }
+        }
+    }
+
+
+    &__btn{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;     
+        text-align: center;
+        color: #EF7C00;
+        border: 1px solid #EF7C00;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+    &__btn:hover{
+        background-color: #EF7C00;
+        color: #ffff;
+        transition-duration: 1s;
+    }
+}

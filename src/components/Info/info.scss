@@ -1,0 +1,105 @@
+.info{
+    margin-bottom: 40px;
+
+    &__con {
+        padding: 24px 0px 46px 20px;
+        background-image: url('../../assets/info-bg.png');
+        box-shadow:  4px 4px 20px  #E5E5E5;
+        border-radius: 10px;
+        h1{
+            height: 40px;
+            margin-bottom: 16px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;  
+            display: flex;
+            align-items: center;           
+            color: #2C2D2E;
+
+            span{
+                color: #EF7C00;
+            }
+        }
+        p{
+            height: 40px;
+            margin-bottom: 24px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            width: 400px;
+            color: #2C2D2E;            
+        }
+        a{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 20px;     
+                text-align: center;
+                color: #EF7C00;
+                border: 1px solid #EF7C00;
+                border-radius: 4px;
+                padding: 10px 20px;
+        }
+        a:hover{
+                background-color: #EF7C00;
+                color: #ffff;
+                transition-duration: 1s;
+        }
+    }
+
+    .registr{
+        margin-bottom: 30px;
+        width: 486px;
+    }
+
+    .top__form{
+        height: 40px;
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        margin-bottom: 12px;
+        row-gap: 12px;
+        justify-content: space-between;
+        width: 100%;
+
+        div{
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        input{
+            width: 178px;
+            margin-top: 0px;
+            height: 100%;
+            padding: 10px 12px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            font-family: 'Montserrat';
+            font-style: normal; 
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px; 
+            color: #919399;
+            border-radius: 0px 4px 4px 0px;
+        }
+    }
+    .bot__form{
+        width: 100%;
+        input{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #919399;
+            border: 1px solid rgba(0, 16, 61, 0.12);
+            border-radius: 4px;
+            padding: 10px 292px 50px 12px;
+        }
+    }
+}

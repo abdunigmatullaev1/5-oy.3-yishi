@@ -1,0 +1,92 @@
+.product{
+    padding: 40px;
+
+    &__top{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 12px;
+
+        h1{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;            
+            display: flex;
+            text-align: center;
+            color: #2C2D2E;  
+            padding-left: 420px;
+            margin-bottom: 32px;
+            
+            span{
+                color: #EF7C00;
+            }
+        }
+
+        ul{
+
+            li{
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 0px;
+                gap: 24px;
+                width: 553px;
+                height: 70px;
+                a{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 13px;
+                    color: #EF7C00;
+                    text-align: center;
+                    padding: 12.5px 20px ;
+                    border: 1px solid rgba(0, 16, 61, 0.12);
+                    border-radius: 61px;
+                }
+                a:hover{
+                    transition-duration: 0.7s;
+                    background-color: #EF7C00;
+                    color: #ffff;
+                }
+            }
+        }
+    }
+
+    &__bot{
+        text-align: center;
+
+        ul{
+            
+            margin-bottom: 48px;
+            li{
+                gap: 20px;
+                width: 1134px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;     
+            text-align: center;
+            color: #EF7C00;
+            border: 1px solid #EF7C00;
+            border-radius: 4px;
+            padding: 10px 20px;
+        }
+        a:hover{
+            background-color: #EF7C00;
+            color: #ffff;
+            transition-duration: 1s;
+        }
+    }
+
+}

@@ -1,0 +1,47 @@
+.company{
+    padding-top: 48px;
+    padding-bottom: 56px;
+
+    &__top{
+        width: 1134px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+        h1{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;   
+            color: #2C2D2E;
+
+            span{
+                padding-left: 6px;
+                color:  #EF7C00;
+            }
+        }
+    }
+    &__bot{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__bot-r{
+        width: 522px;
+        p{
+            padding-bottom: 10px;
+            width: 100%;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;        
+            color: #2C2D2E;       
+        }
+    }
+}

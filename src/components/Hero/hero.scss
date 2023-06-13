@@ -1,0 +1,67 @@
+.hero{
+    padding-top: 162px;
+    padding-bottom: 140px;
+    background: url('../../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &__con{
+        max-width: 1135px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        width: 582px;
+    }
+    &__box{
+        height: 211px;
+        margin-bottom: 104px;
+        h4{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;       
+            display: flex;
+            align-items: center; 
+            color: #2C2D2E;
+            margin-bottom: 16px;
+        }
+
+        h1{
+            margin-bottom: 17px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;        
+            display: flex;
+            align-items: center;   
+            color: #2C2D2E;
+        }
+        p{
+            margin-bottom: 26px;
+            width: 582px;     
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            color: #2C2D2E;
+            height: 69px;
+        }
+        a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;        
+            text-align: center;  
+            color: #FFFFFF;
+            padding: 10px 20px;
+            background: #EF7C00;
+            border-radius: 4px;
+            
+        }
+    }
+    
+}
